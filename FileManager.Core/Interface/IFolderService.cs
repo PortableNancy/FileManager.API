@@ -7,7 +7,8 @@ namespace FileManager.Core.Interface
         FolderResponseDto<string> CreateFolder(string name, string? path);
         void CreateSubfolder(string parentfolder, string path, string childfolder);
         void DeleteFolder(string path, string name);
-        FolderResponseDto<string> GetFolder(string Foldername, string path);
+        IEnumerable<string> GetFolder(string path);
         FolderResponseDto<string> RenameFolder(string Foldername, string path, string NewFoldername);
+       
     }
 }

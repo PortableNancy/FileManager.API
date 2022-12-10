@@ -42,10 +42,10 @@ namespace FileManager.API.Controllers
             return StatusCode((int) HttpStatusCode.OK);
         }
         [HttpGet ("Get-folder")]
-        public IActionResult GetFolder(string Foldername, string path)
+        public IActionResult GetFolder(string path)
         {
-            var folder = folderService.GetFolder(Foldername, path);
-            return StatusCode((int)HttpStatusCode.Found);
+            var folder = folderService.GetFolder(path);
+            return Ok(folder);
         }
     }
 }

@@ -11,6 +11,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IFolderService, FolderService>();
+builder.Services.AddScoped<IFileService, FileService>();
 
 var app = builder.Build();
 

@@ -49,27 +49,16 @@ namespace FileManager.Core.Services
             }
 
         }
-        public FolderResponseDto<string> GetFolder(string Foldername, string path)
+        public IEnumerable<string> GetFolder(string path)
         {
-            try
-            {
-                var pathroot = Path.Combine(Rootpath,path);
-                var directories = Directory.GetDirectories(pathroot, "*", SearchOption.TopDirectoryOnly);
-                foreach (var dir in directories)
-                {
-                    
-                    return FolderResponseDto<string>.Success((int)HttpStatusCode.Found, "Successfully retrieved folder", dir);
-
-                }
-                return FolderResponseDto<string>.Fail((int)HttpStatusCode.NotFound, "Folder not found");
-            }
-            catch (Exception ex)
-            {
-
-               return FolderResponseDto<string>.Fail((int)HttpStatusCode.BadRequest, ex.Message);
-            }
+            
+               
+                var directories = Directory.GetDirectories(path);
+                return directories;
            
         }
+           
+           
         public void CreateSubfolder(string parentfolder, string path,string childfolder)
         {
             try
