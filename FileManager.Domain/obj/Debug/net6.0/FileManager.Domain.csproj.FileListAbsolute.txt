@@ -1,0 +1,12 @@
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\bin\Debug\net6.0\FileManager.Domain.deps.json
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\bin\Debug\net6.0\FileManager.Domain.dll
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\bin\Debug\net6.0\FileManager.Domain.pdb
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.csproj.AssemblyReference.cache
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.AssemblyInfoInputs.cache
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.AssemblyInfo.cs
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.csproj.CoreCompileInputs.cache
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.dll
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\refint\FileManager.Domain.dll
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\FileManager.Domain.pdb
+C:\Users\hp\source\repos\FileManager.API\FileManager.Domain\obj\Debug\net6.0\ref\FileManager.Domain.dll
